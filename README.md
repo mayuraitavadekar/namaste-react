@@ -14,3 +14,4 @@ I started learning again from scratch. This repository has all the code I used t
 * differential bundling - support older browsers
 * Error handling
 * HTTPS support
+* Tree shaking - remove unsued code
