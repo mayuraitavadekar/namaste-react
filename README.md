@@ -1,6 +1,6 @@
-## Namaste React Course
+## FoodFlux
 
-I started learning again from scratch. This repository has all the code I used to learn React.
+Online food ordering app developed using React.
 
 ### features of parcel:
 
