@@ -31,9 +31,17 @@
     display: flex;
   }
 
-  .nav-items > ul > li {
+  .nav-item {
     padding: 10px;
     font-size: 20px;
+    color: black;
+  }
+
+  .nav-item:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: #6A1B4D;
+    cursor: pointer;
   }
 
   .body {
@@ -231,6 +239,10 @@
     cursor: pointer;
   }
 
+  .login-btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
   .logout-btn {
     color: #6A1B4D;
     border: 1px solid #6A1B4D;
@@ -278,9 +290,9 @@
     border: none;
     font-style: bold;
     font-size: 20px;
+    cursor: pointer;
   }
 
   .retry-btn:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
   }

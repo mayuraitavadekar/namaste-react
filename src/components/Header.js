@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 
 const Header = () => {
@@ -8,10 +9,18 @@ const Header = () => {
             </div>
             <div className="nav-items">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                    <li>Cart</li>
+                    <Link to="/" style={{textDecoration: 'none'}}>
+                        <li className="nav-item">Home</li>
+                    </Link>
+                    <Link to="/about" style={{textDecoration: 'none'}}>
+                        <li className="nav-item">About</li>
+                    </Link>
+                    <Link to="/contact" style={{textDecoration: 'none'}}>
+                        <li className="nav-item">Contact Us</li>
+                    </Link>
+                    <Link to="/cart" style={{textDecoration: 'none'}}>
+                        <li className="nav-item">Cart</li>
+                    </Link>
                 </ul>
                 <button className="login-btn">Login</button>
                 <button className="logout-btn">Logout</button>
