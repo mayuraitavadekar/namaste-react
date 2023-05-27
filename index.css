@@ -245,3 +245,42 @@
     color: white;
     transition: 0.5s;
   }
+
+  .error-page-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .error-img {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .oops-container {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .error-msg {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .retry-btn {
+    background-color: #FAA646;
+    height: 48px;
+    width: 84px;
+    color: white;
+    border: none;
+    font-style: bold;
+    font-size: 20px;
+  }
+
+  .retry-btn:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }

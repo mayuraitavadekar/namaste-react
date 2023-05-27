@@ -1,4 +1,4 @@
-import logo from "../../public/images/logo.png";
+import logo from "../assets/images/logo.png";
 
 const Header = () => {
     return (
@@ -9,7 +9,7 @@ const Header = () => {
             <div className="nav-items">
                 <ul>
                     <li>Home</li>
-                    <li>About Us</li>
+                    <li>About</li>
                     <li>Contact Us</li>
                     <li>Cart</li>
                 </ul>
